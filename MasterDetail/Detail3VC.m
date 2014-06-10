@@ -9,7 +9,6 @@
 #import "Detail3VC.h"
 
 @interface Detail3VC ()
-
 @end
 
 @implementation Detail3VC
@@ -24,7 +23,6 @@
 - (IBAction)startTimer:(id)sender {
     
     [self timer:[tf_input.text intValue]];
-    
 }
 - (void)timer:(int)withTime {
     
@@ -48,12 +46,7 @@
     [mainTimer invalidate];
     
     /*UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Timer" message:@"Your Timer is Complete" delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-    
     [alert show];*/
-    
-    
-    
-    
 }
 
 
