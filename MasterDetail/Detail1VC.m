@@ -28,7 +28,6 @@
     firstName.text = fName;
     lastName.text = lName;
     age.text = UserAge;
-    
 }
 
 - (IBAction)saveData:(id)sender {
@@ -60,26 +59,5 @@
 
     
     [defaults synchronize];
-    
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@end
+end
