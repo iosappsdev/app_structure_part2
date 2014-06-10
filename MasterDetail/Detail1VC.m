@@ -57,7 +57,6 @@
     lastName.text = @"";
     age.text = @"";
 
-    
     [defaults synchronize];
 }
 end
